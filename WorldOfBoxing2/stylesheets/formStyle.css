@@ -1,0 +1,72 @@
+@import url('https://fonts.cdnfonts.com/css/bank-gothic');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Bank Gothic', sans-serif;
+    background-image: url(/media/background-img/Untitled-1.jpg);
+    background-size:cover;
+}
+
+
+.form-div{
+    background-color: rgba(0, 0, 0, 0.584);
+    color: white;
+    height: 100vh;
+    justify-content: center;
+}
+.form-form{
+color: white;
+margin-left: 25%;
+margin-right: 25%;
+}
+
+.button-aligne{
+    text-align: center;
+}
+.button{
+    margin-bottom: 2%;
+    border: 2px solid white;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    width: 10%;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 1.5rem;
+}
+
+.button:hover{
+background-color: black;
+color: white;
+text-shadow: 0 0 15px white;
+}
+
+
+
+.fieldset{
+    border: none;
+    color: greenyellow;
+    padding: 10%;
+}
+p{
+    font-size: 50px;
+}
+h1{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 400%;
+    text-align: center;
+}
+.options {
+    height: 3vh;
+    font-size: 60%;
+    
+}
